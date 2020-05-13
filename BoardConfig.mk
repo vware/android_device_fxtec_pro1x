@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 PLATFORM_PATH := device/fxtec/pro1x
 
 ## Android Verified Boot (AVB)
