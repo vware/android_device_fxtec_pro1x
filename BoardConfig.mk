@@ -79,8 +79,8 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc \
     LLVM=1
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/fxtec/sdm662
-TARGET_KERNEL_VERSION := 4.19
+TARGET_KERNEL_SOURCE := kernel/fxtec/sm6115
+TARGET_KERNEL_CONFIG := vendor/lineage-pro1x_defconfig
 
 ## Media
 TARGET_USES_ION := true
