@@ -8,8 +8,8 @@
 from hashlib import sha1
 import sys
 
-device='sm8250-common'
-vendor='motorola'
+device='pro1x'
+vendor='fxtec'
 
 lines = [ line for line in open('proprietary-files.txt', 'r') ]
 vendorPath = '../../../vendor/' + vendor + '/' + device + '/proprietary'

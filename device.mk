@@ -5,7 +5,7 @@
 #
 
 ## Proprietary vendor inclusion (must come first)
-$(call inherit-product, vendor/motorola/sm8250-common/sm8250-common-vendor.mk)
+$(call inherit-product, vendor/fxtec/pro1x/pro1x-vendor.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)

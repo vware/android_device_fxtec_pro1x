@@ -16,7 +16,7 @@
 
 
 cc_library {
-    name: "librecovery_updater.moto_kona",
+    name: "librecovery_updater.fxtec_bengal",
     vendor: true,
     recovery_available: true,
     shared_libs: [
