@@ -103,6 +103,10 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_SOURCE := kernel/fxtec/sm6115
 TARGET_KERNEL_CONFIG := lineage-pro1x_defconfig
 
+#### TEMP
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+#### TEMP
+
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
     adsp_loader_dlkm.ko:audio_adsp_loader.ko \

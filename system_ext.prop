@@ -1,3 +1,7 @@
+#### temp
+ro.adb.secure=false
+#### temp
+
 # Audio
 audio.offload.min.duration.secs=30
 
